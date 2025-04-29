@@ -1,0 +1,10 @@
+streamlit
+openai-whisper
+gtts
+pydub
+reportlab
+python-dotenv
+google-generativeai
+opencv-python-headless
+dlib
+pillow
