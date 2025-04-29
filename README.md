@@ -1,120 +1,110 @@
-🎓 Smart Interview Analyzer AI for Student Interview Prep
-Helping students prepare smarter for interviews through AI-driven feedback on speech, emotion, and grammar.
+# 🎓 Smart Interview Analyzer AI for Student Interview Prep
 
-📚 Project Overview
-Smart Interview Analyzer AI is an advanced mock interview system designed to help students improve their:
+Helping students prepare smarter for interviews through **AI-driven feedback** on speech, emotion, and grammar.
 
-Communication skills
+---
 
-Emotional intelligence
+## 📚 Project Overview
 
-Verbal fluency
+**Smart Interview Analyzer AI** is an advanced mock interview system designed to help students improve their:
 
-It acts as a personal virtual interview coach, analyzing:
+- Communication skills  
+- Emotional intelligence  
+- Verbal fluency  
 
-Voice tone
+It acts as a **personal virtual interview coach**, analyzing:
 
-Facial emotions
+- Voice tone  
+- Facial emotions  
+- Speech transcripts  
 
-Speech transcripts
+And provides **real-time, actionable feedback** to build confidence and identify improvement areas before real interviews.
 
-And provides real-time, actionable feedback to build confidence and identify improvement areas before real interviews.
+---
 
-✨ Key Features
-🎙 Voice Tone Analysis
-Extracts pitch (Hz) and tempo (BPM)
+## ✨ Key Features
 
-Detects signs of monotony, enthusiasm, or nervousness
+### 🎙 Voice Tone Analysis
+- Extracts **pitch (Hz)** and **tempo (BPM)**
+- Detects signs of **monotony**, **enthusiasm**, or **nervousness**
 
-🎭 Facial Emotion Detection
-Identifies dominant facial expressions like:
+### 🎭 Facial Emotion Detection
+- Identifies **dominant facial expressions** such as:
+  - Confidence
+  - Confusion
+  - Nervousness
 
-Confidence
+### 📝 Speech Transcript Correction
+- Provides:
+  - **Raw transcript**
+  - **Improved transcript (clarified)**
+  - **Grammar-corrected, professional transcript**
 
-Confusion
+### 🔄 Flexible Input
+- Record live answers using webcam/microphone
+- Or upload pre-recorded `.wav` files
 
-Nervousness
+### 📈 Real-Time Feedback
+- Instant suggestions after each answer:
+  - Improve fluency
+  - Enhance expressiveness
+  - Correct grammar issues
 
-📝 Speech Transcript Correction
-Displays:
+---
 
-Raw transcript
+## ⚙️ How It Works
 
-Improved transcript (clarified)
+1. **Choose Interview Domain**: Technical / HR / Managerial  
+2. **Select Experience Level**: Entry / Mid / Senior  
+3. **Input Answer**: Record live or upload a `.wav` file  
+4. **Receive Instant Analysis**:
+   - 🎭 Dominant Emotion Detection (via video)
+   - 🎙 Voice Pitch & Tempo Analysis
+   - 📝 Transcripts with Grammar Corrections
+5. **Get Actionable AI-Powered Feedback** to improve future responses
 
-Grammar-corrected professional version
+---
 
-🔄 Flexible Input
-Record live answers via webcam/microphone
+## 🛠 Tech Stack
 
-Or upload pre-recorded .wav files
+### Frontend
+- `Streamlit` — Python-based interactive web app framework
 
-📈 Real-Time Feedback
-Instant suggestions after each answer:
+### Backend
+- `Python`
 
-Improve fluency
+### Libraries Used
+- `OpenCV` — For facial detection & emotion recognition
+- `SpeechRecognition` — Converts audio to text
+- `Google Text-to-Speech (gTTS)` — Provides audio feedback
+- `NLTK` / `LanguageTool` — Grammar correction
+- `Librosa` — Audio feature extraction (pitch, tempo)
+- `DeepFace` *(optional)* — Facial emotion analysis
 
-Enhance expressiveness
+---
 
-Fix grammar issues
+## 🚀 Future Enhancements
 
-⚙️ How It Works
-Choose Interview Type: Technical / HR / Managerial
+- Add an **Overall Interview Scoring System**
+- **Track performance** across multiple interview attempts
+- Provide **Best Practice Suggestions** after each answer
+- Build a **Dashboard** for tracking progress over time
 
-Select Experience Level: Entry / Mid / Senior
+---
 
-Input Answer: Record live or upload .wav
+## 🙌 Acknowledgements
 
-Receive Instant Analysis:
+Thanks to the open-source tools and models that enabled fast prototyping:
 
-🎭 Emotion detection (via video)
+- DeepFace  
+- Librosa  
+- gTTS  
+- SpeechRecognition  
+- OpenCV  
+- NLTK / LanguageTool  
 
-🎙 Voice pitch & tempo metrics
+---
 
-📝 Transcript + grammar feedback
+## 💻 Demo (Optional)
 
-Get AI-powered tips to improve your next response
-
-🛠 Tech Stack
-Frontend
-Streamlit — Python-based interactive web UI
-
-Backend
-Python
-
-Key Libraries & Tools
-OpenCV — Face capture & emotion detection
-
-SpeechRecognition — Audio to text
-
-Google Text-to-Speech (gTTS) — Converts feedback to audio
-
-NLTK / LanguageTool — Grammar correction
-
-Librosa — Audio pitch and tempo analysis
-
-DeepFace (optional) — Facial emotion recognition
-
-🚀 Future Enhancements
-📊 Add overall interview scoring system
-
-📈 Track progress over multiple attempts
-
-💡 Suggest best practices after every answer
-
-📋 Build a dashboard to visualize performance trends
-
-🙌 Acknowledgements
-Gratitude to the open-source community and the developers of:
-
-DeepFace
-
-SpeechRecognition
-
-gTTS
-
-Librosa
-
-NLTK / LanguageTool
-
-OpenCV
+*Add your deployment link or demo video here.*
