@@ -102,9 +102,3 @@ Thanks to the open-source tools and models that enabled fast prototyping:
 - SpeechRecognition  
 - OpenCV  
 - NLTK / LanguageTool  
-
----
-
-## 💻 Demo (Optional)
-
-*Add your deployment link or demo video here.*
