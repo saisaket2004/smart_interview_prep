@@ -2,7 +2,7 @@ from modules import question_generator  # ✅ if you're running app.py from the 
 import google.generativeai as genai
 
 # Replace with your actual Gemini API key
-genai.configure(api_key="AIzaSyCjxdgf-ioqlY04pJSkoZFSz66DHuGD6KU")
+genai.configure(api_key="plac-your-api-key")
 
 # Load the Gemini 1.5 Flash model
 model = genai.GenerativeModel('models/gemini-1.5-flash')
